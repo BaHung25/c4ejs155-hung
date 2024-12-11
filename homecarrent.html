@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Homecarrent</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header h-[124px] flex justify-between px-[60px] py-[40px]">
+             <div class="tieudeandsearch w-[703px] h-[44px] flex justify-between">
+                <p class="text-[32px] font-bold text-blue-500">MORENT</p>
+                <div class="search w-[70%] flex py-[10px]">
+                    <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" name="" id="search-input" placeholder="Search something here" class="w-[100%] border-solid border-black px-[5%]" >
+                </div> 
+             </div>
+             <div class="btns w-[236px] h-[44px] flex justify-between">
+                <img src="img/Like.png" class="w-[44px] h-[44px]" alt="">
+                <img src="img/Notification.png" class="w-[44px] h-[44px]" alt="">
+                <img src="img/Settings.png" class="w-[44px] h-[44px]" alt="">
+                <img src="img/Profil.png" class="w-[44px] h-[44px]" alt="">
+             </div>
+        </div>
+        <div class="body h-[2088px] bg-[#F6F7F9] px-[64px] py-[32px]">
+            <div class="main h-[2024px] flex flex-col justify-between h-[1600px]">
+                <div class="banner h-[358px] flex justify-between">
+                    <div class="banner1 w-[626px] h-[358px] bg-[#54A6FF] rounded-[10px]">
+                        <div class="noidung w-[284px] h-[224px] ml-[24px] mt-[24px] flex flex-col justify-between">
+                            <p class="text-white text-[32px]">The Best Platform for Car Rental</p>
+                            <p class="text-white">Ease of doing a car rental safely and reliably. Of course at a low price.</p>
+                            <button class="bg-[#3563E9] w-[120px] h-[44px] flex justify-center items-center text-white rounded-[10px]">Rental Car</button>
+                        </div>
+                        <img src="img/image 7.png" class="w-[406px] h-[116px] ml-[137px]" alt="">
+                    </div>
+                    <div class="banner2 w-[626px] h-[358px] bg-[#3563E9] rounded-[10px]">
+                        <div class="noidung w-[284px] h-[224px] ml-[24px] mt-[24px] flex flex-col justify-between">
+                            <p class="text-white text-[32px]">Easy way to rent a car at a low price</p>
+                            <p class="text-white">Providing cheap car rental services and safe and comfortable facilities.</p>
+                            <button class="bg-[#54A6FF] w-[120px] h-[44px] flex justify-center items-center text-white rounded-[10px]">Rental Car</button>
+                        </div>
+                        <img src="img/image 8.png" class="w-[406px] h-[116px] ml-[137px]" alt="">
+                    </div>
+                </div>
+                <div class="pickandrop h-[132px] flex justify-between">
+                    <div class="pick w-[582px] h-[132px] bg-white px-[48px] py-[24px] rounded-[10px]">
+                        <div class="pickmain w-[486px] h-[84px] flex flex-col justify-between">
+                            <div class="pickup w-[92px] h-[20px] flex justify-between">
+                                <input type="radio">
+                                <p class="font-bold text-[16px] ">Pick-Up</p>
+                            </div>
+                            <div class="ldt flex justify-between">
+                                <div class="locations w-[126px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[16px]">Locations</p>
+                                    <div class="select flex justify-between">
+                                        <p>Select your city</p>
+                                        <p class="arrow-down">></p>
+                                    </div>
+                                </div>
+                                <div class="date w-[126px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[16px]">Date</p>
+                                    <div class="select flex justify-between">
+                                        <p>Select your date</p>
+                                        <p class="arrow-down">></p>
+                                    </div>
+                                </div>
+                                <div class="Time w-[126px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[16px]">Time</p>
+                                    <div class="select flex justify-between">
+                                        <p>Select your time</p>
+                                        <p class="arrow-down">></p>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/Switch.png" alt="">
+                    <div class="drop w-[582px] h-[132px] bg-white px-[48px] py-[24px] rounded-[10px]">
+                        <div class="dropmain w-[486px] h-[84px] flex flex-col justify-between">
+                            <div class="pickup w-[92px] h-[20px] flex justify-between">
+                                <input type="radio" name="" id="">
+                                <p class="font-bold text-[16px] ">Drop-Off</p>
+                            </div>
+                            <div class="ldt flex justify-between">
+                                <div class="locations w-[126px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[16px]">Locations</p>
+                                    <div class="select flex justify-between">
+                                        <p>Select your city</p>
+                                        <p class="arrow-down">></p>
+                                    </div>
+                                </div>
+                                <div class="date w-[126px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[16px]">Date</p>
+                                    <div class="select flex justify-between">
+                                        <p>Select your date</p>
+                                        <p class="arrow-down">></p>
+                                    </div>
+                                </div>
+                                <div class="Time w-[126px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[16px]">Time</p>
+                                    <div class="select flex justify-between">
+                                        <p>Select your time</p>
+                                        <p class="arrow-down">></p>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div id="car-list" class="car h-[1356px]">
+                    <div class="popular h-[452px] flex flex-col justify-between">
+                       
+                        <div class="popularcar h-[388px] flex justify-between">
+                            <div id="car 1" class="car w-[304px] h-[388px] bg-white rounded-[10px] px-[24px] py-[24px]">
+                                <div class="nameandtype w-[128px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[20px]">Koenigsegg</p>
+                                    <p class="font-bold text-[14px] text-gray-500">Sport</p>
+                                </div>
+                                <img src="img/carkoe.png" class="mt-[64px] justify-center items-center" alt="">
+                                <div class="fuelmnualpeople w-[256px] h-[24px] mt-[64px] flex justify-between">
+                                    <div class="fuel w-[58px] h-[24px] flex justify-between">
+                                        <img src="img/gas-station.png" alt="">
+                                        <p class="text-[14px] text-gray-300">90L</p>
+                                    </div>
+                                    <div class="manual w-[76px] h-[24px] flex justify-between">
+                                        <img src="img/Car.png" alt="">
+                                        <p class="text-[14px] text-gray-300">Manual</p>
+                                    </div>
+                                    <div class="people w-[90px] h-[24px] flex justify-between">
+                                        <img src="img/profile-2user.png" alt="">
+                                        <p class="text-[14px] text-gray-300">2 people</p>
+                                    </div>
+                                </div>
+                                <div class="priceanhrent mt-[24px] flex justify-between">
+                                    <p class="font-bold text-[20px] w-[116px] h-[44px]">$99.00/day</p>
+                                    <button class="bg-blue-500 text-white w-[116px] h-[44px] rounded-[10px]">Rent Now</button>
+                                </div>
+                            </div>
+                            <div id=" car 2" class="car w-[304px] h-[388px] bg-white rounded-[10px] px-[24px] py-[24px]">
+                                <div class="nameandtype w-[128px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[20px]">Nissan GT-R</p>
+                                    <p class="font-bold text-[14px] text-gray-500">Sport</p>
+                                </div>
+                                <img src="img/nissan.png" class="mt-[64px] flex justify-center items-center" alt="">
+                                <div class="fuelmnualpeople w-[256px] h-[24px] mt-[64px] flex justify-between">
+                                    <div class="fuel w-[58px] h-[24px] flex justify-between">
+                                        <img src="img/gas-station.png" alt="">
+                                        <p class="text-[14px] text-gray-300">80L</p>
+                                    </div>
+                                    <div class="manual w-[76px] h-[24px] flex justify-between">
+                                        <img src="img/Car.png" alt="">
+                                        <p class="text-[14px] text-gray-300">Manual</p>
+                                    </div>
+                                    <div class="people w-[90px] h-[24px] flex justify-between">
+                                        <img src="img/profile-2user.png" alt="">
+                                        <p class="text-[14px] text-gray-300">2 people</p>
+                                    </div>
+                                </div>
+                                <div class="priceanhrent mt-[24px] flex justify-between">
+                                    <p class="font-bold text-[20px] w-[116px] h-[44px]">$80.00/day</p>
+                                    <button class="bg-blue-500 text-white w-[116px] h-[44px] rounded-[10px]">Rent Now</button>
+                                </div>
+                            </div>
+                            <div id="car 3" class="car w-[304px] h-[388px] bg-white rounded-[10px] px-[24px] py-[24px]">
+                                <div class="nameandtype w-[128px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[20px]">Rolls Royce</p>
+                                    <p class="font-bold text-[14px] text-gray-500">Sedan</p>
+                                </div>
+                                <img src="img/rolls.png" class="mt-[64px]" alt="">
+                                <div class="fuelmnualpeople w-[256px] h-[24px] mt-[64px] flex justify-between">
+                                    <div class="fuel w-[58px] h-[24px] flex justify-between">
+                                        <img src="img/gas-station.png" alt="">
+                                        <p class="text-[14px] text-gray-300">70L</p>
+                                    </div>
+                                    <div class="manual w-[76px] h-[24px] flex justify-between">
+                                        <img src="img/Car.png" alt="">
+                                        <p class="text-[14px] text-gray-300">Manual</p>
+                                    </div>
+                                    <div class="people w-[90px] h-[24px] flex justify-between">
+                                        <img src="img/profile-2user.png" alt="">
+                                        <p class="text-[14px] text-gray-300">4 people</p>
+                                    </div>
+                                </div>
+                                <div class="priceanhrent mt-[24px] flex justify-between">
+                                    <p class="font-bold text-[20px] w-[116px] h-[44px]">$96.00/day</p>
+                                    <button class="bg-blue-500 text-white w-[116px] h-[44px] rounded-[10px]">Rent Now</button>
+                                </div>
+                            </div>
+                            <div id="car 4" class="car w-[304px] h-[388px] bg-white rounded-[10px] px-[24px] py-[24px]">
+                                <div class="nameandtype w-[128px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[20px]">Nissan GT-R</p>
+                                    <p class="font-bold text-[14px] text-gray-500">Sport</p>
+                                </div>
+                                <img src="img/nissangt.png" class="mt-[64px] flex justify-center items-center" alt="">
+                                <div class="fuelmnualpeople w-[256px] h-[24px] mt-[64px] flex justify-between">
+                                    <div class="fuel w-[58px] h-[24px] flex justify-between">
+                                        <img src="img/gas-station.png" alt="">
+                                        <p class="text-[14px] text-gray-300">80L</p>
+                                    </div>
+                                    <div class="manual w-[76px] h-[24px] flex justify-between">
+                                        <img src="img/Car.png" alt="">
+                                        <p class="text-[14px] text-gray-300">Manual</p>
+                                    </div>
+                                    <div class="people w-[90px] h-[24px] flex justify-between">
+                                        <img src="img/profile-2user.png" alt="">
+                                        <p class="text-[14px] text-gray-300">2 people</p>
+                                    </div>
+                                </div>
+                                <div class="priceanhrent mt-[24px] flex justify-between">
+                                    <p class="font-bold text-[20px] w-[116px] h-[44px]">$80.00/day</p>
+                                    <button class="bg-blue-500 text-white w-[116px] h-[44px] rounded-[10px]">Rent Now</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="recommendation h-[872px]">
+                        
+                        <div class="recommendationcar flex justify-between flex-wrap">
+                            <div id="car 5" class="car w-[304px] h-[388px] bg-white rounded-[10px] px-[24px] py-[24px] flex flex-col justify-between">
+                                <div class="nameandtype w-[128px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[20px]">All New Rush</p>
+                                    <p class="font-bold text-[14px] text-gray-500">SUV</p>
+                                </div>
+                                <img src="img/allnew.png" class="flex justify-center items-center" alt="">
+                                <div class="fuelmnualpeople w-[256px] h-[24px] mt-[64px] flex justify-between">
+                                    <div class="fuel w-[58px] h-[24px] flex justify-between">
+                                        <img src="img/gas-station.png" alt="">
+                                        <p class="text-[14px] text-gray-300">70L</p>
+                                    </div>
+                                    <div class="manual w-[76px] h-[24px] flex justify-between">
+                                        <img src="img/Car.png" alt="">
+                                        <p class="text-[14px] text-gray-300">Manual</p>
+                                    </div>
+                                    <div class="people w-[90px] h-[24px] flex justify-between">
+                                        <img src="img/profile-2user.png" alt="">
+                                        <p class="text-[14px] text-gray-300">6 people</p>
+                                    </div>
+                                </div>
+                                <div class="priceanhrent mt-[24px] flex justify-between">
+                                    <p class="font-bold text-[20px] w-[116px] h-[44px]">$72.00/day</p>
+                                    <button class="bg-blue-500 text-white w-[116px] h-[44px] rounded-[10px]">Rent Now</button>
+                                </div>
+                            </div>
+                            <div id="car 6" class="car w-[304px] h-[388px] bg-white rounded-[10px] px-[24px] py-[24px] flex flex-col justify-between">
+                                <div class="nameandtype w-[128px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[20px]">CR -V</p>
+                                    <p class="font-bold text-[14px] text-gray-500">SUV</p>
+                                </div>
+                                <img src="img/Car (2).png" class="flex justify-center items-center" alt="">
+                                <div class="fuelmnualpeople w-[256px] h-[24px] mt-[64px] flex justify-between">
+                                    <div class="fuel w-[58px] h-[24px] flex justify-between">
+                                        <img src="img/gas-station.png" alt="">
+                                        <p class="text-[14px] text-gray-300">80L</p>
+                                    </div>
+                                    <div class="manual w-[76px] h-[24px] flex justify-between">
+                                        <img src="img/Car.png" alt="">
+                                        <p class="text-[14px] text-gray-300">Manual</p>
+                                    </div>
+                                    <div class="people w-[90px] h-[24px] flex justify-between">
+                                        <img src="img/profile-2user.png" alt="">
+                                        <p class="text-[14px] text-gray-300">2 people</p>
+                                    </div>
+                                </div>
+                                <div class="priceanhrent mt-[24px] flex justify-between">
+                                    <p class="font-bold text-[20px] w-[116px] h-[44px]">$80.00/day</p>
+                                    <button class="bg-blue-500 text-white w-[116px] h-[44px] rounded-[10px]">Rent Now</button>
+                                </div>
+                            </div>
+                            <div id="car 7" class="car w-[304px] h-[388px] bg-white rounded-[10px] px-[24px] py-[24px] flex flex-col justify-between">
+                                <div class="nameandtype w-[140px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[20px]">All New Terios</p>
+                                    <p class="font-bold text-[14px] text-gray-500">SUV</p>
+                                </div>
+                                <img src="img/allnewterios.png" class="flex justify-center items-center" alt="">
+                                <div class="fuelmnualpeople w-[256px] h-[24px] mt-[64px] flex justify-between">
+                                    <div class="fuel w-[58px] h-[24px] flex justify-between">
+                                        <img src="img/gas-station.png" alt="">
+                                        <p class="text-[14px] text-gray-300">90L</p>
+                                    </div>
+                                    <div class="manual w-[76px] h-[24px] flex justify-between">
+                                        <img src="img/Car.png" alt="">
+                                        <p class="text-[14px] text-gray-300">Manual</p>
+                                    </div>
+                                    <div class="people w-[90px] h-[24px] flex justify-between">
+                                        <img src="img/profile-2user.png" alt="">
+                                        <p class="text-[14px] text-gray-300">6 people</p>
+                                    </div>
+                                </div>
+                                <div class="priceanhrent mt-[24px] flex justify-between">
+                                    <p class="font-bold text-[20px] w-[116px] h-[44px]">$74.00/day</p>
+                                    <button class="bg-blue-500 text-white w-[116px] h-[44px] rounded-[10px]">Rent Now</button>
+                                </div>
+                            </div>
+                            <div id="car 8" class="car w-[304px] h-[388px] bg-white rounded-[10px] px-[24px] py-[24px] flex flex-col justify-between">
+                                <div class="nameandtype w-[128px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[20px]">CR -V</p>
+                                    <p class="font-bold text-[14px] text-gray-500">Sport</p>
+                                </div>
+                                <img src="img/crv.png" class="flex justify-center items-center" alt="">
+                                <div class="fuelmnualpeople w-[256px] h-[24px] mt-[64px] flex justify-between">
+                                    <div class="fuel w-[58px] h-[24px] flex justify-between">
+                                        <img src="img/gas-station.png" alt="">
+                                        <p class="text-[14px] text-gray-300">80L</p>
+                                    </div>
+                                    <div class="manual w-[76px] h-[24px] flex justify-between">
+                                        <img src="img/Car.png" alt="">
+                                        <p class="text-[14px] text-gray-300">Manual</p>
+                                    </div>
+                                    <div class="people w-[90px] h-[24px] flex justify-between">
+                                        <img src="img/profile-2user.png" alt="">
+                                        <p class="text-[14px] text-gray-300">6 people</p>
+                                    </div>
+                                </div>
+                                <div class="priceanhrent mt-[24px] flex justify-between">
+                                    <p class="font-bold text-[20px] w-[116px] h-[44px]">$80.00/day</p>
+                                    <button class="bg-blue-500 text-white w-[116px] h-[44px] rounded-[10px]">Rent Now</button>
+                                </div>
+                            </div>
+                            <div id="car 9" class="car w-[304px] h-[388px] bg-white rounded-[10px] px-[24px] py-[24px] mt-[32px] flex flex-col justify-between">
+                                <div class="nameandtype w-[160px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[20px]">MG ZX Exclusive</p>
+                                    <p class="font-bold text-[14px] text-gray-500">Hatchback</p>
+                                </div>
+                                <img src="img/mgzxexclu.png" class="flex justify-center items-center" alt="">
+                                <div class="fuelmnualpeople w-[256px] h-[24px] mt-[64px] flex justify-between">
+                                    <div class="fuel w-[58px] h-[24px] flex justify-between">
+                                        <img src="img/gas-station.png" alt="">
+                                        <p class="text-[14px] text-gray-300">70L</p>
+                                    </div>
+                                    <div class="manual w-[76px] h-[24px] flex justify-between">
+                                        <img src="img/Car.png" alt="">
+                                        <p class="text-[14px] text-gray-300">Manual</p>
+                                    </div>
+                                    <div class="people w-[90px] h-[24px] flex justify-between">
+                                        <img src="img/profile-2user.png" alt="">
+                                        <p class="text-[14px] text-gray-300">4 people</p>
+                                    </div>
+                                </div>
+                                <div class="priceanhrent mt-[24px] flex justify-between">
+                                    <p class="font-bold text-[20px] w-[116px] h-[44px]">$76.00/day</p>
+                                    <button class="bg-blue-500 text-white w-[116px] h-[44px] rounded-[10px]">Rent Now</button>
+                                </div>
+                            </div>
+                            <div id="car 10" class="car w-[304px] h-[388px] bg-white rounded-[10px] px-[24px] py-[24px] mt-[32px] flex flex-col justify-between">
+                                <div class="nameandtype w-[160px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[20px]">New MG ZS</p>
+                                    <p class="font-bold text-[14px] text-gray-500">SUV</p>
+                                </div>
+                                <img src="img/newmg.png" class="flex justify-center items-center" alt="">
+                                <div class="fuelmnualpeople w-[256px] h-[24px] mt-[64px] flex justify-between">
+                                    <div class="fuel w-[58px] h-[24px] flex justify-between">
+                                        <img src="img/gas-station.png" alt="">
+                                        <p class="text-[14px] text-gray-300">80L</p>
+                                    </div>
+                                    <div class="manual w-[76px] h-[24px] flex justify-between">
+                                        <img src="img/Car.png" alt="">
+                                        <p class="text-[14px] text-gray-300">Manual</p>
+                                    </div>
+                                    <div class="people w-[90px] h-[24px] flex justify-between">
+                                        <img src="img/profile-2user.png" alt="">
+                                        <p class="text-[14px] text-gray-300">6 people</p>
+                                    </div>
+                                </div>
+                                <div class="priceanhrent mt-[24px] flex justify-between">
+                                    <p class="font-bold text-[20px] w-[116px] h-[44px]">$80.00/day</p>
+                                    <button class="bg-blue-500 text-white w-[116px] h-[44px] rounded-[10px]">Rent Now</button>
+                                </div>
+                            </div>
+                            <div id="car 11" class="car w-[304px] h-[388px] bg-white rounded-[10px] px-[24px] py-[24px] mt-[32px] flex flex-col justify-between">
+                                <div class="nameandtype w-[128px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[20px]">MG ZX Excite</p>
+                                    <p class="font-bold text-[14px] text-gray-500">Hatchback</p>
+                                </div>
+                                <img src="img/mgzxexclu.png" class="flex justify-center items-center" alt="">
+                                <div class="fuelmnualpeople w-[256px] h-[24px] mt-[64px] flex justify-between">
+                                    <div class="fuel w-[58px] h-[24px] flex justify-between">
+                                        <img src="img/gas-station.png" alt="">
+                                        <p class="text-[14px] text-gray-300">90L</p>
+                                    </div>
+                                    <div class="manual w-[76px] h-[24px] flex justify-between">
+                                        <img src="img/Car.png" alt="">
+                                        <p class="text-[14px] text-gray-300">Manual</p>
+                                    </div>
+                                    <div class="people w-[90px] h-[24px] flex justify-between">
+                                        <img src="img/profile-2user.png" alt="">
+                                        <p class="text-[14px] text-gray-300">4 people</p>
+                                    </div>
+                                </div>
+                                <div class="priceanhrent mt-[24px] flex justify-between">
+                                    <p class="font-bold text-[20px] w-[116px] h-[44px]">$74.00/day</p>
+                                    <button class="bg-blue-500 text-white w-[116px] h-[44px] rounded-[10px]">Rent Now</button>
+                                </div>
+                            </div>
+                            <div id="car 12" class="car w-[304px] h-[388px] bg-white rounded-[10px] px-[24px] py-[24px] mt-[32px] flex flex-col justify-between">
+                                <div class="nameandtype w-[128px] h-[48px] flex flex-col justify-between">
+                                    <p class="font-bold text-[20px]">New MG ZS</p>
+                                    <p class="font-bold text-[14px] text-gray-500">Sport</p>
+                                </div>
+                                <img src="img/newmgzx.png" class="flex justify-center items-center" alt="">
+                                <div class="fuelmnualpeople w-[256px] h-[24px] mt-[64px] flex justify-between">
+                                    <div class="fuel w-[58px] h-[24px] flex justify-between">
+                                        <img src="img/gas-station.png" alt="">
+                                        <p class="text-[14px] text-gray-300">80L</p>
+                                    </div>
+                                    <div class="manual w-[76px] h-[24px] flex justify-between">
+                                        <img src="img/Car.png" alt="">
+                                        <p class="text-[14px] text-gray-300">Manual</p>
+                                    </div>
+                                    <div class="people w-[90px] h-[24px] flex justify-between">
+                                        <img src="img/profile-2user.png" alt="">
+                                        <p class="text-[14px] text-gray-300">6 people</p>
+                                    </div>
+                                </div>
+                                <div class="priceanhrent mt-[24px] flex justify-between">
+                                    <p class="font-bold text-[20px] w-[116px] h-[44px]">$80.00/day</p>
+                                    <button class="bg-blue-500 text-white w-[116px] h-[44px] rounded-[10px]">Rent Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showmore w-[734px] h-[44px] flex justify-between">
+                    <button class="bg-blue-500 w-[156px] h-[44px] text-white rounded-[10px]">Show more car</button>
+                    <p>120 Car</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer h-[480px] px-[60px] pt-[80px] pb-[60px] flex justify-between">
+            <div class="mor w-[292px] h-[108px] flex flex-col justify-between">
+                <p class="text-[32px] text-blue-500 font-bold">MORENT</p>
+                <p>Our vision is to provide convenience and help increase your sales business.</p>
+            </div>
+            <div class="acs w-[576px] h-[244px] flex justify-between">
+                <div class="about w-[153px] h-[244px] flex flex-col justify-between">
+                    <p class="font-bold text-[20px]">About</p>
+                    <div class="hfpt w-[152px] h-[188px] flex flex-col justify-between">
+                        <p>How it works</p>
+                        <p>Featured</p>
+                        <p>Partnership</p>
+                        <p>Business relationship</p>
+                    </div>
+                </div>
+                <div class="community w-[153px] h-[244px] flex flex-col justify-between">
+                    <p class="font-bold text-[20px]">Community</p>
+                    <div class="ebpi w-[152px] h-[188px] flex flex-col justify-between">
+                        <p>Events</p>
+                        <p>Blogs</p>
+                        <p>Podcasts</p>
+                        <p>Invite a friend</p>
+                    </div>
+                </div>
+                <div class="socials w-[153px] h-[244px] flex flex-col justify-between">
+                    <p class="font-bold text-[20px]">About</p>
+                    <div class="ditf w-[152px] h-[188px] flex flex-col justify-between">
+                        <p>Discord</p>
+                        <p>Instagram</p>
+                        <p>Twitter</p>
+                        <p>Facebook</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/home.js"></script>
+</body>
+</html>

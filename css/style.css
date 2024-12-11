@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.search{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.pickup{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.arrow-down{
+    transform: rotate(90deg);
+}
+#search-icon{
+    font-size: 28px;
+    cursor: pointer;
+}    

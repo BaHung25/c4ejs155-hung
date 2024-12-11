@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style6.css">
+    <title>Login</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header h-[10%] flex justify-between px-[60px] py-[40px] flex justify-between">
+            <p class="text-[32px] font-bold text-blue-500">MORENT</p>          
+            <button class="bg-blue-500 flex justify-center items-center rounded-[10px] w-[8%]">
+                <img src="img.bx_bxs-user.png" alt="">
+                <p class="font-bold text-white">SIGN IN</p>
+            </button>
+        </div>
+        <div class="body w-[100%] h-[664px] py-[100px] px-[184px] bg-[#F6F7F9] flex justify-between">
+            <div id="Login" class="login w-[49%] h-[80%] flex flex-col justify-evenly">
+                <form action="/action_page.php" class="flex flex-col justify-between h-[12%]">
+                    <label for="email" class="font-bold text-[22px]">Email:</label>
+                    <input type="email" id="login-email" name="email" class="rounded-[10px] h-[40%] w-[80%]" placeholder="Enter your Email">
+                </form>
+                <form action="/action_page.php" class="flex flex-col justify-between h-[12%]">
+                    <label for="email" class="font-bold text-[22px]">Password:</label>
+                    <input type="password" id="login-password" name="password" class="rounded-[10px] h-[40%] w-[80%]" placeholder="Enter your Password">
+                </form>
+                <input type="button" value="Login" id="submit" onclick="validate()" class="bg-blue-500 w-[80%] rounded-[10px] h-[8%] text-white"/>
+                <div class=" w-[80%] h-[5%] flex items-center justify-center">
+                    <p class="font-bold">Don't have an account?</p>
+                    <a href="register.html" class="text-blue-500 font-bold">Register here</a>
+                </div>
+            </div>
+            <div id="Register" class="register w-[49%] h-[80%] flex flex-col justify-between" style="display: none;">
+                <form action="/action_page.php" class="flex flex-col justify-between h-[12%]">
+                    <label for="name" class="font-bold text-[22px]">Name:</label>
+                    <input type="name" id="register-username" name="email" class="rounded-[10px] h-[40%] w-[80%]" placeholder="Full Name">
+                </form>
+                <form action="/action_page.php" class="flex flex-col justify-between h-[12%]">
+                    <label for="email" class="font-bold text-[22px]">Email:</label>
+                    <input type="email" id="register-email" name="email" class="rounded-[10px] h-[40%] w-[80%]" placeholder="name@mail.com">
+                </form>
+                <form action="/action_page.php" class="flex flex-col justify-between h-[12%]">
+                    <label for="phonenumber" class="font-bold text-[22px]">Phone Number:</label>
+                    <input type="phonenumber" id="register-phonenumber" name="email" class="rounded-[10px] h-[40%] w-[80%]" placeholder="000-000-000">
+                </form>
+                <form action="/action_page.php" class="flex flex-col justify-between h-[12%]">
+                    <label for="password" class="font-bold text-[22px]">Password:</label>
+                    <input type="password" id="register-password" name="email" class="rounded-[10px] h-[40%] w-[80%]" placeholder="password">
+                </form>
+                <button id="create" class="bg-blue-500 text-white w-[80%] h-[10%] rounded-[10px]">Create My Account</button>
+                <div class=" w-[80%] h-[5%] flex items-center justify-center">
+                    <p class="font-bold">Already have an account?</p>
+                    <a href="login.html" class="text-blue-500 font-bold" >Login here</a>
+                </div>
+            </div>
+            <div class="banner w-[49%] h-[100%] px-[5%] py-[5%] bg-white flex flex-col justify-evenly items-center justify-center">
+                <p class="text-blue-500 font-bold text-[36px]">MORENT</p>
+                <div class="loginbanner h-[50%] w-[100%] flex flex-col justify-center items-center">
+                    <p class="font-bold justify-center text-[20px]">LOG IN</p>
+                    <p class="text-[16px]">Welcome to MORENT</p>
+                </div>
+                <img src="img/Social.png" alt="">
+            </div>
+        </div>
+        <div class="footer h-[10%] px-[60px] pt-[80px] pb-[60px] flex justify-between">
+            <div class="mor w-[292px] h-[108px] flex flex-col justify-between">
+                <p class="text-[32px] text-blue-500 font-bold">MORENT</p>
+                <p>Our vision is to provide convenience and help increase your sales business.</p>
+            </div>
+            <div class="acs w-[576px] h-[244px] flex justify-between">
+                <div class="about w-[153px] h-[244px] flex flex-col justify-between">
+                    <p class="font-bold text-[20px]">About</p>
+                    <div class="hfpt w-[152px] h-[188px] flex flex-col justify-between">
+                        <p>How it works</p>
+                        <p>Featured</p>
+                        <p>Partnership</p>
+                        <p>Business relationship</p>
+                    </div>
+                </div>
+                <div class="community w-[153px] h-[244px] flex flex-col justify-between">
+                    <p class="font-bold text-[20px]">Community</p>
+                    <div class="ebpi w-[152px] h-[188px] flex flex-col justify-between">
+                        <p>Events</p>
+                        <p>Blogs</p>
+                        <p>Podcasts</p>
+                        <p>Invite a friend</p>
+                    </div>
+                </div>
+                <div class="socials w-[153px] h-[244px] flex flex-col justify-between">
+                    <p class="font-bold text-[20px]">About</p>
+                    <div class="ditf w-[152px] h-[188px] flex flex-col justify-between">
+                        <p>Discord</p>
+                        <p>Instagram</p>
+                        <p>Twitter</p>
+                        <p>Facebook</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
